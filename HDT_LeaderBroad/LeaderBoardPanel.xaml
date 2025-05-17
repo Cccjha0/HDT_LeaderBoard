@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="HDT_LeaderBoard.LeaderBoardPanel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d">
+    <Grid x:Name="LeaderGrid" HorizontalAlignment="Left" VerticalAlignment="Top">
+        <Grid.RenderTransform>
+            <ScaleTransform x:Name="GridTransform" ScaleX="1" ScaleY="1"/>
+        </Grid.RenderTransform>
+        <TextBlock x:Name="LeaderText" Text="&#xA;123 12345&#xA;123 12345&#xA;123 12345&#xA;123 12345&#xA;123 12345&#xA;123 12345&#xA;123 12345" Foreground="#FFE8E3E3" Background="#FF272424" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Top" MouseDown="LeaderText_MouseDown" MouseUp="LeaderText_MouseUp" MouseMove="LeaderText_MouseMove" MouseWheel="LeaderText_MouseWheel"/>
+        <Button x:Name="DeleteButton" Content="X" Width="25" Height="25" Click="DeleteButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="10"/>
+        <Button x:Name="HiddenButton" Content="–" Width="25" Height="25" Click="HiddenButton_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="25,0,0,0" FontSize="12"/>
+    </Grid>
+</UserControl>
