@@ -5,7 +5,7 @@ A Chinese Hearthstone battlegrounds plugin help you to search opponents' MMR.
 
 This is a plugin for the [HDT](https://github.com/HearthSim/Hearthstone-Deck-Tracker), and works in the hearthstone battlegrounds.
 
-![image](.\image\image-20250518012711803.png)
+![image](images/image-20250518012711803.png)
 
 Once the match has started, slide the mouse cursor over each person's avatar on the left and the MMR information will be displayed.
 
@@ -24,12 +24,12 @@ If an opponent has the same name as a top 500 player, their ranking and score wi
 1.Download the **HDT_BGrank.zip** from [here](https://wwpx.lanzouy.com/b011lb30ti密码:btku).
 
 2.Open the HDT, choose Options->Tracker->Plugins->Plugins Folder.
-![image](.\image\image-20250518014231298.png)
+![image](images/image-20250518014231298.png)
 
 3.Put the **HDT_LeaderBoard.dll** into the plugins folder.
 
 4.Restart the HDT and enable the plugin.
-![image](.\image\image-20250518014309452.png)
+![image](images/image-20250518014309452.png)
 
 # References
 
